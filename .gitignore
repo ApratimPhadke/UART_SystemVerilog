@@ -1,0 +1,16 @@
+# Ignore Vivado generated files
+*.jou
+*.log
+*.str
+*.wdb
+*.vcd
+*.pb
+*.cache
+*.hw
+*.sim
+*.ip_user_files
+xsim.dir/
+*.csv
+*.html
+*.dcp
+*.runs/
