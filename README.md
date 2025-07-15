@@ -51,7 +51,7 @@ UART transmits serial data using the following frame format:
 - Timing managed using custom **baud rate generator**
 
 <p align="center">
-  <img src="images/uart_timing_diagram.png" width="600" alt="UART Timing">
+ 
 </p>
 
 ---
