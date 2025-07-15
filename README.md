@@ -1,54 +1,34 @@
-\# UART Transmitter and Receiver in SystemVerilog
+<h1 align="center">🔌 SystemVerilog UART Transmitter & Receiver</h1>
 
+<p align="center">
+  <img src="images/uart_banner.png" alt="UART System" width="700"/>
+</p>
 
+<p align="center">
+  <b>📡 A fully synthesizable UART core built in SystemVerilog — with clean RTL, testbenches, automation scripts, and waveform verification.</b>
+</p>
 
-A synthesizable and testbench-verified UART module with Tx and Rx paths, built in SystemVerilog and simulated using Vivado XSIM.
+---
 
+## 📘 Introduction
 
+This project implements a **UART (Universal Asynchronous Receiver/Transmitter)** system in **SystemVerilog**, developed for simulation and integration into FPGA or ASIC designs. It includes both **transmit (Tx)** and **receive (Rx)** modules, a **parameterized baud rate generator**, **testbenches**, and **automated simulation scripts** using Vivado.
 
-\## Features
+This project follows a **professional hardware design structure**, making it a great learning resource or portfolio project for VLSI, RTL, and FPGA engineers.
 
+---
 
+## 🧠 Key Features
 
-\- Baudrate Generator
+- ✅ Modular Transmitter (`uart_tx.sv`)
+- ✅ Modular Receiver (`uart_rx.sv`)
+- ✅ Parameterized Baud Rate Generator
+- ✅ Synthesizable RTL Code
+- ✅ Fully Functional Testbench (`tb_uart.sv`)
+- ✅ Simulation-ready with Vivado TCL script
+- ✅ Professional GitHub Structure
 
-\- 8-bit data support
+---
 
-\- Transmit and Receive modules
-
-\- Configurable testbench
-
-\- Waveform verification
-
-
-
-\## Folder Structure
-
-
-
-\- `src/`: SystemVerilog RTL
-
-\- `tb/`: Testbenches
-
-\- `scripts/`: TCL scripts for automation
-
-\- `sim/`: Simulation results
-
-\- `docs/`: Diagrams, descriptions
-
-
-
-\## How to Simulate
-
-
-
-Run `simulate.tcl` using Vivado's Tcl console:
-
-
-
-```bash
-
-vivado -mode tcl -source scripts/simulate.tcl
-
-
+## 📁 Folder Structure
 
